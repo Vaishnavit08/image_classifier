@@ -40,6 +40,8 @@ prediction = model.predict(np.array([img]))/255.0
 index=np.argmax(prediction)
 print(f"Prediction is {class_names[index]}")
 
+print()
+
 
 
 
